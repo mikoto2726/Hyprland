@@ -1,0 +1,13 @@
+cp: cannot stat 'Lanczos3'$'\n''/home/kali/Pictures/wallpapers/Dynamic-Wallpapers/Dark/Mountain_dark.png': No such file or directory
+Error: No such file or directory (os error 2)
+sed: couldn't flush stdout: Broken pipe
+Failed to register: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+Gjs-Console-Message: 11:12:46.404: [LOG] Styles loaded
+
+(waybar:18456): Gtk-CRITICAL **: 11:12:47.255: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:18456): Gtk-CRITICAL **: 11:12:47.255: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:18456): Gtk-CRITICAL **: 11:12:47.256: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+
+(waybar:18456): Gtk-CRITICAL **: 11:12:47.256: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
