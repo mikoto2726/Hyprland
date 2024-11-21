@@ -1,0 +1,1340 @@
+// Last modified: 2021-08-29 20:00:00
+
+// 各バインドがなんの機能かをコメントで書いておく
+
+// モジュールのモードを切り替える
+bind
+	modmask: 12
+	submap: 
+	key: Delete
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: hyprctl dispatch exit 0
+
+// アクティブなウィンドウを閉じる
+bind
+	modmask: 64
+	submap: 
+	key: Q
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: killactive
+	arg: 
+
+// アクティブなウィンドウをフルスクリーンにする
+bind
+	modmask: 64
+	submap: 
+	key: F
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: fullscreen
+	arg: 
+
+// アクティブなウィンドウを閉じる
+bind
+	modmask: 65
+	submap: 
+	key: Q
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/KillActiveProcess.sh
+
+//
+bind
+	modmask: 65
+	submap: 
+	key: F
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: togglefloating
+	arg: 
+
+bind
+	modmask: 72
+	submap: 
+	key: F
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: hyprctl dispatch workspaceopt allfloat
+
+bind
+	modmask: 12
+	submap: 
+	key: L
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/LockScreen.sh
+
+bind
+	modmask: 12
+	submap: 
+	key: P
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/Wlogout.sh
+
+bind
+	modmask: 64
+	submap: 
+	key: H
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/KeyHints.sh
+
+bind
+	modmask: 72
+	submap: 
+	key: R
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/Refresh.sh
+
+bind
+	modmask: 72
+	submap: 
+	key: E
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/RofiEmoji.sh
+
+bind
+	modmask: 64
+	submap: 
+	key: S
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/RofiSearch.sh
+
+bind
+	modmask: 65
+	submap: 
+	key: B
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/ChangeBlur.sh
+
+bind
+	modmask: 65
+	submap: 
+	key: G
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/GameMode.sh
+
+bind
+	modmask: 72
+	submap: 
+	key: L
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/ChangeLayout.sh
+
+bind
+	modmask: 72
+	submap: 
+	key: V
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/ClipManager.sh
+
+bind
+	modmask: 65
+	submap: 
+	key: N
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: swaync-client -t -sw
+
+bind
+	modmask: 64
+	submap: 
+	key: E
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/UserScripts/QuickEdit.sh
+
+bind
+	modmask: 65
+	submap: 
+	key: M
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/UserScripts/RofiBeats.sh
+
+bind
+	modmask: 64
+	submap: 
+	key: W
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/UserScripts/WallpaperSelect.sh
+
+bind
+	modmask: 65
+	submap: 
+	key: W
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/UserScripts/WallpaperEffects.sh
+
+bind
+	modmask: 12
+	submap: 
+	key: W
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/UserScripts/WallpaperRandom.sh
+
+bind
+	modmask: 72
+	submap: 
+	key: O
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: hyprctl setprop active opaque toggle
+
+bind
+	modmask: 64
+	submap: 
+	key: B
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: pkill -SIGUSR1 waybar
+
+bind
+	modmask: 68
+	submap: 
+	key: B
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/WaybarStyles.sh
+
+bind
+	modmask: 72
+	submap: 
+	key: B
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/WaybarLayout.sh
+
+bind
+	modmask: 68
+	submap: 
+	key: D
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: layoutmsg
+	arg: removemaster
+
+bind
+	modmask: 64
+	submap: 
+	key: I
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: layoutmsg
+	arg: addmaster
+
+bind
+	modmask: 64
+	submap: 
+	key: J
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: layoutmsg
+	arg: cyclenext
+
+bind
+	modmask: 64
+	submap: 
+	key: K
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: layoutmsg
+	arg: cycleprev
+
+bind
+	modmask: 64
+	submap: 
+	key: M
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: hyprctl dispatch splitratio 0.3
+
+bind
+	modmask: 64
+	submap: 
+	key: P
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: pseudo
+	arg: 
+
+bind
+	modmask: 68
+	submap: 
+	key: Return
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: layoutmsg
+	arg: swapwithmaster
+
+bind
+	modmask: 64
+	submap: 
+	key: G
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: togglegroup
+	arg: 
+
+bind
+	modmask: 68
+	submap: 
+	key: tab
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: changegroupactive
+	arg: 
+
+bind
+	modmask: 8
+	submap: 
+	key: tab
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: cyclenext
+	arg: 
+
+bind
+	modmask: 8
+	submap: 
+	key: tab
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: bringactivetotop
+	arg: 
+
+bindle
+	modmask: 0
+	submap: 
+	key: xf86audioraisevolume
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/Volume.sh --inc
+
+bindle
+	modmask: 0
+	submap: 
+	key: xf86audiolowervolume
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/Volume.sh --dec
+
+bindl
+	modmask: 0
+	submap: 
+	key: xf86AudioMicMute
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/Volume.sh --toggle-mic
+
+bindl
+	modmask: 0
+	submap: 
+	key: xf86audiomute
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/Volume.sh --toggle
+
+bindl
+	modmask: 0
+	submap: 
+	key: xf86Sleep
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: systemctl suspend
+
+bindl
+	modmask: 0
+	submap: 
+	key: xf86Rfkill
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/AirplaneMode.sh
+
+bindl
+	modmask: 0
+	submap: 
+	key: xf86AudioPlayPause
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/MediaCtrl.sh --pause
+
+bindl
+	modmask: 0
+	submap: 
+	key: xf86AudioPause
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/MediaCtrl.sh --pause
+
+bindl
+	modmask: 0
+	submap: 
+	key: xf86AudioPlay
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/MediaCtrl.sh --pause
+
+bindl
+	modmask: 0
+	submap: 
+	key: xf86AudioNext
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/MediaCtrl.sh --nxt
+
+bindl
+	modmask: 0
+	submap: 
+	key: xf86AudioPrev
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/MediaCtrl.sh --prv
+
+bindl
+	modmask: 0
+	submap: 
+	key: xf86audiostop
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/MediaCtrl.sh --stop
+
+bind
+	modmask: 64
+	submap: 
+	key: Print
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/ScreenShot.sh --now
+
+bind
+	modmask: 65
+	submap: 
+	key: Print
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/ScreenShot.sh --area
+
+bind
+	modmask: 68
+	submap: 
+	key: Print
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/ScreenShot.sh --in5
+
+bind
+	modmask: 69
+	submap: 
+	key: Print
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/ScreenShot.sh --in10
+
+bind
+	modmask: 8
+	submap: 
+	key: Print
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/ScreenShot.sh --active
+
+bind
+	modmask: 65
+	submap: 
+	key: S
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/ScreenShot.sh --swappy
+
+binde
+	modmask: 65
+	submap: 
+	key: left
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: resizeactive
+	arg: -50 0
+
+binde
+	modmask: 65
+	submap: 
+	key: right
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: resizeactive
+	arg: 50 0
+
+binde
+	modmask: 65
+	submap: 
+	key: up
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: resizeactive
+	arg: 0 -50
+
+binde
+	modmask: 65
+	submap: 
+	key: down
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: resizeactive
+	arg: 0 50
+
+bind
+	modmask: 68
+	submap: 
+	key: left
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: movewindow
+	arg: l
+
+bind
+	modmask: 68
+	submap: 
+	key: right
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: movewindow
+	arg: r
+
+bind
+	modmask: 68
+	submap: 
+	key: up
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: movewindow
+	arg: u
+
+bind
+	modmask: 68
+	submap: 
+	key: down
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: movewindow
+	arg: d
+
+bind
+	modmask: 64
+	submap: 
+	key: left
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: movefocus
+	arg: l
+
+bind
+	modmask: 64
+	submap: 
+	key: right
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: movefocus
+	arg: r
+
+bind
+	modmask: 64
+	submap: 
+	key: up
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: movefocus
+	arg: u
+
+bind
+	modmask: 64
+	submap: 
+	key: down
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: movefocus
+	arg: d
+
+bind
+	modmask: 64
+	submap: 
+	key: tab
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: workspace
+	arg: m+1
+
+bind
+	modmask: 65
+	submap: 
+	key: tab
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: workspace
+	arg: m-1
+
+bind
+	modmask: 65
+	submap: 
+	key: U
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: movetoworkspace
+	arg: special
+
+bind
+	modmask: 64
+	submap: 
+	key: U
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: togglespecialworkspace
+	arg: 
+
+bind
+	modmask: 64
+	submap: 
+	key: 
+	keycode: 10
+	catchall: false
+	description: 
+	dispatcher: workspace
+	arg: 1
+
+bind
+	modmask: 64
+	submap: 
+	key: 
+	keycode: 11
+	catchall: false
+	description: 
+	dispatcher: workspace
+	arg: 2
+
+bind
+	modmask: 64
+	submap: 
+	key: 
+	keycode: 12
+	catchall: false
+	description: 
+	dispatcher: workspace
+	arg: 3
+
+bind
+	modmask: 64
+	submap: 
+	key: 
+	keycode: 13
+	catchall: false
+	description: 
+	dispatcher: workspace
+	arg: 4
+
+bind
+	modmask: 64
+	submap: 
+	key: 
+	keycode: 14
+	catchall: false
+	description: 
+	dispatcher: workspace
+	arg: 5
+
+bind
+	modmask: 64
+	submap: 
+	key: 
+	keycode: 15
+	catchall: false
+	description: 
+	dispatcher: workspace
+	arg: 6
+
+bind
+	modmask: 64
+	submap: 
+	key: 
+	keycode: 16
+	catchall: false
+	description: 
+	dispatcher: workspace
+	arg: 7
+
+bind
+	modmask: 64
+	submap: 
+	key: 
+	keycode: 17
+	catchall: false
+	description: 
+	dispatcher: workspace
+	arg: 8
+
+bind
+	modmask: 64
+	submap: 
+	key: 
+	keycode: 18
+	catchall: false
+	description: 
+	dispatcher: workspace
+	arg: 9
+
+bind
+	modmask: 64
+	submap: 
+	key: 
+	keycode: 19
+	catchall: false
+	description: 
+	dispatcher: workspace
+	arg: 10
+
+bind
+	modmask: 65
+	submap: 
+	key: 
+	keycode: 10
+	catchall: false
+	description: 
+	dispatcher: movetoworkspace
+	arg: 1
+
+bind
+	modmask: 65
+	submap: 
+	key: 
+	keycode: 11
+	catchall: false
+	description: 
+	dispatcher: movetoworkspace
+	arg: 2
+
+bind
+	modmask: 65
+	submap: 
+	key: 
+	keycode: 12
+	catchall: false
+	description: 
+	dispatcher: movetoworkspace
+	arg: 3
+
+bind
+	modmask: 65
+	submap: 
+	key: 
+	keycode: 13
+	catchall: false
+	description: 
+	dispatcher: movetoworkspace
+	arg: 4
+
+bind
+	modmask: 65
+	submap: 
+	key: 
+	keycode: 14
+	catchall: false
+	description: 
+	dispatcher: movetoworkspace
+	arg: 5
+
+bind
+	modmask: 65
+	submap: 
+	key: 
+	keycode: 15
+	catchall: false
+	description: 
+	dispatcher: movetoworkspace
+	arg: 6
+
+bind
+	modmask: 65
+	submap: 
+	key: 
+	keycode: 16
+	catchall: false
+	description: 
+	dispatcher: movetoworkspace
+	arg: 7
+
+bind
+	modmask: 65
+	submap: 
+	key: 
+	keycode: 17
+	catchall: false
+	description: 
+	dispatcher: movetoworkspace
+	arg: 8
+
+bind
+	modmask: 65
+	submap: 
+	key: 
+	keycode: 18
+	catchall: false
+	description: 
+	dispatcher: movetoworkspace
+	arg: 9
+
+bind
+	modmask: 65
+	submap: 
+	key: 
+	keycode: 19
+	catchall: false
+	description: 
+	dispatcher: movetoworkspace
+	arg: 10
+
+bind
+	modmask: 65
+	submap: 
+	key: bracketleft
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: movetoworkspace
+	arg: -1
+
+bind
+	modmask: 65
+	submap: 
+	key: bracketright
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: movetoworkspace
+	arg: +1
+
+bind
+	modmask: 68
+	submap: 
+	key: 
+	keycode: 10
+	catchall: false
+	description: 
+	dispatcher: movetoworkspacesilent
+	arg: 1
+
+bind
+	modmask: 68
+	submap: 
+	key: 
+	keycode: 11
+	catchall: false
+	description: 
+	dispatcher: movetoworkspacesilent
+	arg: 2
+
+bind
+	modmask: 68
+	submap: 
+	key: 
+	keycode: 12
+	catchall: false
+	description: 
+	dispatcher: movetoworkspacesilent
+	arg: 3
+
+bind
+	modmask: 68
+	submap: 
+	key: 
+	keycode: 13
+	catchall: false
+	description: 
+	dispatcher: movetoworkspacesilent
+	arg: 4
+
+bind
+	modmask: 68
+	submap: 
+	key: 
+	keycode: 14
+	catchall: false
+	description: 
+	dispatcher: movetoworkspacesilent
+	arg: 5
+
+bind
+	modmask: 68
+	submap: 
+	key: 
+	keycode: 15
+	catchall: false
+	description: 
+	dispatcher: movetoworkspacesilent
+	arg: 6
+
+bind
+	modmask: 68
+	submap: 
+	key: 
+	keycode: 16
+	catchall: false
+	description: 
+	dispatcher: movetoworkspacesilent
+	arg: 7
+
+bind
+	modmask: 68
+	submap: 
+	key: 
+	keycode: 17
+	catchall: false
+	description: 
+	dispatcher: movetoworkspacesilent
+	arg: 8
+
+bind
+	modmask: 68
+	submap: 
+	key: 
+	keycode: 18
+	catchall: false
+	description: 
+	dispatcher: movetoworkspacesilent
+	arg: 9
+
+bind
+	modmask: 68
+	submap: 
+	key: 
+	keycode: 19
+	catchall: false
+	description: 
+	dispatcher: movetoworkspacesilent
+	arg: 10
+
+bind
+	modmask: 68
+	submap: 
+	key: bracketleft
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: movetoworkspacesilent
+	arg: -1
+
+bind
+	modmask: 68
+	submap: 
+	key: bracketright
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: movetoworkspacesilent
+	arg: +1
+
+bind
+	modmask: 64
+	submap: 
+	key: mouse_down
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: workspace
+	arg: e+1
+
+bind
+	modmask: 64
+	submap: 
+	key: mouse_up
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: workspace
+	arg: e-1
+
+bind
+	modmask: 64
+	submap: 
+	key: period
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: workspace
+	arg: e+1
+
+bind
+	modmask: 64
+	submap: 
+	key: comma
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: workspace
+	arg: e-1
+
+bindm
+	modmask: 64
+	submap: 
+	key: mouse:272
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: mouse
+	arg: movewindow
+
+bindm
+	modmask: 64
+	submap: 
+	key: mouse:273
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: mouse
+	arg: resizewindow
+
+binde
+	modmask: 0
+	submap: 
+	key: xf86KbdBrightnessDown
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/BrightnessKbd.sh --dec
+
+binde
+	modmask: 0
+	submap: 
+	key: xf86KbdBrightnessUp
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/BrightnessKbd.sh --inc
+
+bind
+	modmask: 0
+	submap: 
+	key: xf86Launch1
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: rog-control-center
+
+bind
+	modmask: 0
+	submap: 
+	key: xf86Launch3
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: asusctl led-mode -n
+
+bind
+	modmask: 0
+	submap: 
+	key: xf86Launch4
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: asusctl profile -n
+
+binde
+	modmask: 0
+	submap: 
+	key: xf86MonBrightnessDown
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/Brightness.sh --dec
+
+binde
+	modmask: 0
+	submap: 
+	key: xf86MonBrightnessUp
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/Brightness.sh --inc
+
+bind
+	modmask: 0
+	submap: 
+	key: xf86TouchpadToggle
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/TouchPad.sh
+
+bind
+	modmask: 64
+	submap: 
+	key: F10
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/ScreenShot.sh --now
+
+bind
+	modmask: 65
+	submap: 
+	key: F6
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/ScreenShot.sh --area
+
+bind
+	modmask: 68
+	submap: 
+	key: F6
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/ScreenShot.sh --in5
+
+bind
+	modmask: 72
+	submap: 
+	key: F6
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/ScreenShot.sh --in10
+
+bind
+	modmask: 8
+	submap: 
+	key: F6
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/ScreenShot.sh --active
+
+bind
+	modmask: 64
+	submap: 
+	key: D
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: pkill rofi || rofi -show drun -modi drun,filebrowser,run,window
+
+bind
+	modmask: 64
+	submap: 
+	key: A
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: pkill rofi || true && ags -t 'overview'
+
+bind
+	modmask: 64
+	submap: 
+	key: Return
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: kitty
+
+bind
+	modmask: 64
+	submap: 
+	key: T
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: thunar
+
+bind
+	modmask: 72
+	submap: 
+	key: C
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/UserScripts/RofiCalc.sh
+
+bind
+	modmask: 65
+	submap: 
+	key: Return
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: pypr toggle term
+
+bind
+	modmask: 64
+	submap: 
+	key: Z
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: pypr zoom
+
+bind
+	modmask: 65
+	submap: 
+	key: O
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/UserScripts/ZshChangeTheme.sh
+
+bindn
+	modmask: 8
+	submap: 
+	key: SHIFT_L
+	keycode: 0
+	catchall: false
+	description: 
+	dispatcher: exec
+	arg: /home/kali/.config/hypr/scripts/SwitchKeyboardLayout.sh
+
+

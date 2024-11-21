@@ -178,3 +178,7 @@
 
 ---
 
+64 super
+65 super shift
+12 ctrl alt
+
