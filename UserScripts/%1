@@ -11,3 +11,66 @@ Gjs-Console-Message: 11:12:46.404: [LOG] Styles loaded
 (waybar:18456): Gtk-CRITICAL **: 11:12:47.256: gtk_widget_set_accel_path: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
 
 (waybar:18456): Gtk-CRITICAL **: 11:12:47.256: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+11:16:11.780 › Unrecognized Content-Security-Policy directive 'prefetch-src'.
+11:16:12.712 › Unrecognized Content-Security-Policy directive 'prefetch-src'.
+11:16:12.712 › Unrecognized Content-Security-Policy directive 'prefetch-src'.
+11:16:12.712 › Unrecognized Content-Security-Policy directive 'prefetch-src'.
+11:16:12.712 › Unrecognized Content-Security-Policy directive 'prefetch-src'.
+
+(com.github.Aylur.ags:18520): Gjs-Console-WARNING **: 11:16:33.227: Error: can't assign "org.telegram.desktop._61186d7d48d793ad7b63241cf31fcc8c" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+Window@file:///home/kali/.config/ags/modules/overview/overview_hyprland.js:68:32
+default/Workspace/widget.set@file:///home/kali/.config/ags/modules/overview/overview_hyprland.js:289:37
+default/OverviewRow/update/<@file:///home/kali/.config/ags/modules/overview/overview_hyprland.js:346:47
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:263:34
+  
+
+(com.github.Aylur.ags:18520): Gjs-Console-WARNING **: 11:33:49.034: Error: can't assign "org.telegram.desktop._61186d7d48d793ad7b63241cf31fcc8c" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+Window@file:///home/kali/.config/ags/modules/overview/overview_hyprland.js:68:32
+default/Workspace/widget.set@file:///home/kali/.config/ags/modules/overview/overview_hyprland.js:289:37
+default/OverviewRow/update/<@file:///home/kali/.config/ags/modules/overview/overview_hyprland.js:346:47
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:263:34
+  
+
+(com.github.Aylur.ags:18520): Gjs-Console-WARNING **: 11:34:00.221: Error: can't assign "org.telegram.desktop._61186d7d48d793ad7b63241cf31fcc8c" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+Window@file:///home/kali/.config/ags/modules/overview/overview_hyprland.js:68:32
+default/Workspace/widget.set@file:///home/kali/.config/ags/modules/overview/overview_hyprland.js:289:37
+default/OverviewRow/update/<@file:///home/kali/.config/ags/modules/overview/overview_hyprland.js:346:47
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:263:34
+  
+
+(com.github.Aylur.ags:18520): Gjs-Console-WARNING **: 11:34:09.769: Error: can't assign "org.telegram.desktop._61186d7d48d793ad7b63241cf31fcc8c" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+Window@file:///home/kali/.config/ags/modules/overview/overview_hyprland.js:68:32
+default/Workspace/widget.set@file:///home/kali/.config/ags/modules/overview/overview_hyprland.js:289:37
+default/OverviewRow/update/<@file:///home/kali/.config/ags/modules/overview/overview_hyprland.js:346:47
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:263:34
+  
+
+(com.github.Aylur.ags:18520): GLib-GObject-CRITICAL **: 11:35:07.338: value "-26" of type 'gint' is invalid or out of range for property 'pixel-size' of type 'gint'
+sed: couldn't flush stdout: Broken pipe
+12:15:49.078 › [AnalyticsTrackingStore] Track: Request has been terminated
+Possible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc.
+12:16:02.383 › [NativeDispatchUtils] Tried getting Dispatch instance before instantiated
+12:16:31.279 › [RTCLatencyTestManager] Error: Request has been terminated
+Possible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc.
+XIO:  fatal IO error 13 (Permission denied) on X server ":0"
+      after 16 requests (16 known processed) with 0 events remaining.
+[1120/130301.932852:ERROR:elf_dynamic_array_reader.h(64)] tag not found
+[WebContents] crashed (reason: crashed, exitCode: 6)... reloading
+Gdk-Message: 13:03:02.115: Lost connection to Wayland compositor.
+Gdk-Message: 13:03:02.119: Lost connection to Wayland compositor.
