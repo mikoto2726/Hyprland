@@ -1,4 +1,10 @@
+slackやDiscordのアプリケーションで日本語が入力できない問題の解決策   
+
 sudo nvim /usr/share/applications/slack.desktop 
 xec行を以下のように変更します：   
-Exec=env QT_IM_MODULE=fcitx GTK_IM_MODULE=fcitx XMODIFIERS=@im=fcitx slack
+Exec=slack --enable-features=UseOzonePlatform --ozone-platform=x11
+
+sudo nvim /usr/share/applications/discord.desktop 
+xec行を以下のように変更します：  
+Exec=/usr/bin/discord --enable-features=UseOzonePlatform --ozone-platform=x11
 
