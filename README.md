@@ -6,5 +6,6 @@ Exec=slack --enable-features=UseOzonePlatform --ozone-platform=x11
 
 sudo nvim /usr/share/applications/discord.desktop 
 xec行を以下のように変更します：  
-Exec=/usr/bin/discord --enable-features=UseOzonePlatform --ozone-platform=x11
+Exec=/usr/bin/discord --enable-features=UseOzonePlatform --ozone-platform=x11   
+systemctl --user restart xdg-desktop-portal
 
