@@ -39,7 +39,7 @@ ags &
 # Relaunching rainbow borders if the script exists
 sleep 1
 if file_exists "${UserScripts}/RainbowBorders.sh"; then
-    ${UserScripts}/RainbowBorders.sh &
+    ${UserScripts}/RainbowBorders.sh > /dev/null 2>&1 &
 fi
 
 
